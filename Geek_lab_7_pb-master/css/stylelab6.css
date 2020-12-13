@@ -1,0 +1,113 @@
+body {
+    background: url(https://cdn.pixabay.com/photo/2020/02/18/11/02/setting-4859130_960_720.png);/* fallback for old browsers */
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+h1 {
+    font-size: 34px;
+    color: rgb(19, 19, 18);
+    font-family:sans-serif;
+    font-weight: bold;
+}
+form {
+    margin: 50px auto;
+    margin-bottom: 5px;
+}
+.contenido-principal {
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid  rgb(89, 190, 6);
+  
+}
+
+.mensajes {
+    color: white;
+}
+#resultado {
+    text-align: center;
+    border: 3px solid rgb(89, 190, 6);
+}
+.btn {
+    width: 100%;
+}
+.contenido-spinner {
+    display: none;
+} 
+  
+  .spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: #93C54B;
+  
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+  
+  .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+  
+  .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+  #resultado{
+    background-color: white;
+    border-radius: 20px;
+    width: 25%;
+    height: 200px;
+    margin: auto;
+
+  }
+  img{
+    width: 60px;
+    height: 50px;
+  }
+  #logo{
+  width:130px;
+  height: 70px;
+    margin-left: 44%;
+    margin-top: 15px;
+    
+  }
+  
+  @-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 40% { 
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+  }
+  li{
+    display: inline-block;
+    text-decoration: none;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    ;
+    display: block;
+    padding: 18px ;
+  
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+color: rgb(43, 238, 43);
+}
+nav{
+    background-color:black;
+    text-decoration: none;
+}
